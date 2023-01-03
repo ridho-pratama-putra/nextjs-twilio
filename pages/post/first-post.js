@@ -6,6 +6,9 @@ import Script from "next/script";
 import ImageLayout from "../../components/ImageLayout";
 import Layout from "../../components/Layout";
 
+/*
+* single component first post
+* */
 export default function FirstPost() {
     return (
         <Layout className={styles.container}>
