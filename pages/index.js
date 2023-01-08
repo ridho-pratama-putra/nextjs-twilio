@@ -47,7 +47,7 @@ export default function Home() {
                     </p>
                 </a>
                 <Link href="/post/first-post" className={styles.card}>
-                    <h3>First Post&rarr;</h3>
+                    <h3>First Post &rarr;</h3>
                     <p>First post using different component.</p>
                 </Link>
             </div>
