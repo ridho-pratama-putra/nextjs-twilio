@@ -25,14 +25,14 @@ export default function FirstPost() {
             <main>
                 <div className={styles.card}>
                     <h1 className={utilsStyles.heading2Xl}>First Post</h1>
-                    <ImageLayout></ImageLayout>
+                    <ImageLayout imageSource="/images/img.png"></ImageLayout>
                     <p className={utilsStyles.headingXl}>Lets make group call by entering room name</p>
                     <p className={utilsStyles.headingMd}>this group call will be recorded, please allow permissions for
                         mic & camera
                     </p>
                     <p className={utilsStyles.padding30px}>
                         <Link href="/">
-                            &larr;back to home
+                            &larr;back to Dashboard
                         </Link>
                     </p>
                 </div>
