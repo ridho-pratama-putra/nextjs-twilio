@@ -5,6 +5,7 @@ import Head from "next/head";
 import Script from "next/script";
 import ImageLayout from "../../components/ImageLayout";
 import Layout from "../../components/Layout";
+import Alert from "../../components/Alert";
 
 /*
 * single component first post
@@ -23,6 +24,7 @@ export default function FirstPost() {
                 }
             />
             <main>
+                <Alert type={'success'} children={'children of alert'}></Alert>
                 <div className={styles.card}>
                     <h1 className={utilsStyles.heading2Xl}>First Post</h1>
                     <ImageLayout imageSource="/images/img.png"></ImageLayout>
